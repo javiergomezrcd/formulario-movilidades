@@ -1,0 +1,22 @@
+node_modules/
+.DS_Store
+
+# Secretos / credenciales (no versionar)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+key.properties
+google-services.json
+GoogleService-Info.plist
+serviceAccount*.json
+*-service-account*.json
+*.sqlite
+*.db
+*.sql
+*.dump
